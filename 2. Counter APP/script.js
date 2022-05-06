@@ -2,9 +2,7 @@ var count = document.getElementById('start');
 var increase = document.getElementById('increase');
 var decrease = document.getElementById('decrease');
 var reset = document.getElementById('reset');
-
 var value = 0;
-
 const plus=()=>{
     value++;
     count.innerHTML=value;
